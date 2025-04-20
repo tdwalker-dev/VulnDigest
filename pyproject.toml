@@ -1,0 +1,20 @@
+[project]
+name = "VulnDigest"
+version = "1.0.0"
+description = "CLI tool to convert DAST JSON reports into readable Markdown summaries."
+authors = [
+  { name = "Tyler Walker", email = "tdwalker03@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "pydantic<2"
+]
+license = {text = "MIT"}
+
+[project.scripts]
+vulndigest = "vulndigest_cli:main"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
