@@ -20,25 +20,7 @@
 pip install vulndigest
 ```
 
-### Option 2: Install via apt (Linux)
-```bash
-sudo apt-get update
-sudo apt-get install vulndigest
-```
-*(Coming soon: hosted APT repository or PPA)*
-
-### Option 3: Install via winget (Windows 10+)
-```bash
-winget install vulndigest
-```
-
-### Option 4: Download a Prebuilt Binary
-- Go to [GitHub Releases](https://github.com/yourname/vulndigest/releases)
-- Download the appropriate binary for your system:
-  - `vulndigest.exe` for Windows
-  - `vulndigest` for Linux/macOS
-
-### Option 5: Clone and run from source
+### Option 2: Clone and run from source
 ```bash
 git clone https://github.com/yourname/vulndigest.git
 cd vulndigest
