@@ -9,7 +9,7 @@
 - Converts DAST JSON reports into structured Markdown
 - Summary-only mode for fast triage
 - Works with ZAP, Burp, and other compatible scanners
-- Available via pip, apt, winget, prebuilt binary, or git clone
+- Available via pip or git clone
 
 ---
 
